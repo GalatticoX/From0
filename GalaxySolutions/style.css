@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1920&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    min-height: 60vh; /*altezza minima del 60% della finestra del browser*/
+}
+.hero-testo h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /*aggiunge un'ombra al testo per migliorare la leggibilità*/
+}
+.hero-testo p{
+    max-width: 50%;
+    padding-right: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /*aggiunge un'ombra al testo per migliorare la leggibilità*/
+}
+.hero-form{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    border : 1px solid #00ffff;/*bordo azzurro neon*/
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    min-width: 300px; /*larghezza minima del form per evitare che diventi troppo piccolo su schermi più piccoli*/
+}
+.bottom{
+    background-color: transparent;
+    color: #00ffff; /*testo azzurro neon*/
+    border: 2px solid #00ffff;/*bordo azzurro neon*/
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;/* Tutte le lettere maiuscole */
+    border-radius: 5px;
+    cursor: pointer; /*fa comparire la manina se ci passi sopra*/
+    /* Effetto bagliore esterno e interno */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2), inset 0 0 5px rgba(0, 255, 255, 0.1);
+    transition: 0.3s;
+}
+.bottom:hover{
+    background-color: #00ffff; /*colore di sfondo azzurro neon al passaggio del mouse*/
+    color: #040d21; /*colore del testo nero al passaggio del mouse*/
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6), inset 0 0 20px rgba(0, 255, 255, 0.4); /*aumenta l'effetto bagliore al passaggio del mouse*/
+}
+.contenitore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top : 40px;
+}
+.card{
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.attivo{
+    background-color: #040d21;
+    box-shadow: 0 0 30px #00ffff;
+    transition: 0.5s;
+}
+.form-registrazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.input-dati{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input-dati:focus{
+    background-color: whitesmoke;
+    border: #00ffff solid 3px;
+    transition: 0.5s;
+    outline: none;
+}
+/* Stile della barra di navigazione */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #040d21;
+    border-bottom: 2px solid #00ffff;
+}
+/* Stile del logo e titolo */
+.logo{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+/* Stile dei link di navigazione */
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/* Effetto quando passi il mouse sui link */
+nav a:hover{
+    color: #00ffff;
+}
+.features{
+    text-align: center;
+    padding: 60px 50px;
+    background-color: #f8f9fa;
+}
+.titolo{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.contenitore-features{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.feature-box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+.feature-box p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.abbonamenti{
+    text-align: center; /*centra il titolo e tutto il testo dentro*/
+    padding: 60px 50px; /*dà spazio sopra e sotto*/
+    background-color: #f8f9fa;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #040d21;
+    color: white;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+}
