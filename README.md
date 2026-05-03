@@ -1,2 +1,2 @@
 # From0
-Learning HTML, CSS, JAVASCRIPT and Python in 2026? Alright, so here we go.
+Ciao, ho deciso di REimparare HTML, CSS e Python e specializzarmi su essi. In aggiunta ho deciso di implementare JAVASCRIPT che non ho mai fatto. sto studiando tramite AI in cui ho deciso di creare un unico grande progetto che mi faccia da apripista in cui posso apprendere il codice (senza fare copia e incolla.. sennò addio apprendimento). In questo repository inserirò anche dei piccoli progetti che ho fatto in Python prima di iniziare questo progetto e futuri progetti sconnessi da questo.  
